@@ -1,0 +1,19 @@
+[project]
+name = "course-catalog-information-aggregator"
+version = "0.1.0"
+description = "Honors Project"
+authors = [
+    {name = "Caleb Acree"}
+]
+license = {text = "GNU General Public License v3.0"}
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+playwright = "^1.45.1"
