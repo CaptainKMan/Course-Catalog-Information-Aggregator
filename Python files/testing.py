@@ -95,7 +95,15 @@ def extract_course_details(html_content):
         else:
             details['prerequisites'] = "Prerequisites not found"
     except:
-        details
+        details['prerequisites'] = "Prerequisites not found"
+    
+    # Lecture Hours, Repeat Status, Grade Mode, and Schedule Type
+    info_table = soup.find('table', class_='table_default')
+    if info_table:
+        for row in info_table.find_all('tr'):
+            cells = row.find_all('td')
+            if len(cells) == 2:
+                label =
 
 if __name__ == "__main__":
     url = "https://catalog.augusta.edu/content.php?catoid=45&navoid=5479"
