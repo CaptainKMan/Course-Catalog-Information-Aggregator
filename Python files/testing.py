@@ -103,7 +103,24 @@ def extract_course_details(html_content):
         for row in info_table.find_all('tr'):
             cells = row.find_all('td')
             if len(cells) == 2:
-                label =
+                label = cells[0].text.strip().replace(':', '')
+                value = cells[1].text.strip()
+                
+                if "Lecture Hours" in label:
+                    details['lecture_hours'] = value
+                elif "Repeat Status" in label:
+                    details['repeat_status'] = value
+                elif "Grade Mode" in label:
+                    details['grade_mode'] = value
+                elif "Schedule Type" in label:
+                    details['schedule_type'] = value
+    else:
+        details['lecture_hours'] = "Lecture Hours not found"
+        details['repeat_status'] = "Repeat Status not found"
+        details['grade_mode'] = "Grade Mode not found"
+        details['schedule_type'] = "Schedule Type not found"
+
+    return details
 
 if __name__ == "__main__":
     url = "https://catalog.augusta.edu/content.php?catoid=45&navoid=5479"
