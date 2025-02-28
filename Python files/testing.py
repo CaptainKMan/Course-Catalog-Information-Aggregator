@@ -84,8 +84,18 @@ def extract_course_details(html_content):
     
     # Description
     desc_element = soup.find('span', class_='coursedetail')
-    details['description'] = desc_element.
+    details['description'] = desc_element.text.strip() if desc_element else "Description not found"
     
+    # Prerequisites
+    try:
+        prereq_heading = soup.find('strong', text=re.compile(r'Prereqisite(s)', re.IGNORECASE))
+        if prereq_heading:
+            prereq_text = prereq_heading.find_parent('p').text.replace('\n', '').strip()
+            details['prerequisites'] = prereq_text
+        else:
+            details['prerequisites'] = "Prerequisites not found"
+    except:
+        details
 
 if __name__ == "__main__":
     url = "https://catalog.augusta.edu/content.php?catoid=45&navoid=5479"
