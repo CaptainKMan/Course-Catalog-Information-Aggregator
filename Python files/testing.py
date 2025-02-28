@@ -84,7 +84,8 @@ def extract_course_details(html_content):
     
     # Description
     desc_element = soup.find('span', class_='coursedetail')
-    details['description']
+    details['description'] = desc_element.
+    
 
 if __name__ == "__main__":
     url = "https://catalog.augusta.edu/content.php?catoid=45&navoid=5479"
