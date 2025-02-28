@@ -3,6 +3,7 @@ import re
 import os
 from playwright.sync_api import sync_playwright
 from elevate import elevate
+from bs4 import BeautifulSoup
 
 def run(playwright, url):
     print("Starting the browser...")
@@ -76,6 +77,14 @@ def extract_course_info(playwright, browser, url):
                 print(f"Processed {i} courses...")
 
     print(f"Course information saved as {filename}")
+
+def extract_course_details(html_content):
+    soup = BeautifulSoup(html_content, 'html.parser')
+    details = {}
+    
+    # Description
+    desc_element = soup.find('span', class_='coursedetail')
+    details['description']
 
 if __name__ == "__main__":
     url = "https://catalog.augusta.edu/content.php?catoid=45&navoid=5479"
