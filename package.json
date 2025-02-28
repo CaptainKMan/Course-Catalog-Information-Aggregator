@@ -1,0 +1,22 @@
+{
+  "name": "course-catalog-information-aggregator",
+  "version": "1.0.0",
+  "description": "This tool addresses the challenges faced by students and faculty at Augusta University when using the current course catalog system. It aims to provide a more user-friendly, responsive, and accurate alternative for accessing course information.",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CaptainKMan/Course-Catalog-Information-Aggregator.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CaptainKMan/Course-Catalog-Information-Aggregator/issues"
+  },
+  "homepage": "https://github.com/CaptainKMan/Course-Catalog-Information-Aggregator#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.50.1",
+    "@types/node": "^22.13.5"
+  }
+}
