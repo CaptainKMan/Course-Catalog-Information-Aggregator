@@ -103,7 +103,7 @@ def extract_course_details(course_page):
         # Prerequisites
         prereq_heading = soup.find('strong', string=re.compile(r'Prerequisite(s)?', re.IGNORECASE))
         if prereq_heading:
-            
+            #The Prereq text is the next sibling
             prereq_text = prereq_heading.next_sibling.strip()
             details['prerequisites'] = prereq_text if prereq_text else "Prerequisites not found"
         else:
@@ -151,7 +151,6 @@ def extract_course_details(course_page):
     except:
         details['schedule_type'] = "Schedule Type not found"
     return details
-
 
 if __name__ == "__main__":
     elevate()
