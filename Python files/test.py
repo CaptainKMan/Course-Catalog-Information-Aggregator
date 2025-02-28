@@ -21,18 +21,21 @@ def run(playwright, url):
         return
 
     print("Extracting course info...")
-    extract_course_info(page)
+    extract_course_info(playwright, browser, url)
 
     print("Closing the browser...")
     browser.close()
 
-
-def extract_course_info(page):
+def extract_course_info(playwright, browser, url):
     print("Selecting course links...")
+    page = browser.new_page()
+    print(f"Navigating to {url}")
+    page.goto(url)
     course_links = page.query_selector_all('table.table_default a')
     print(f"Found {len(course_links)} course links")
 
-    output_dir = os.path.join(os.path.expanduser("~"), "Documents", "course_data")
+    username = os.environ['USERNAME']
+    output_dir = f"C:\\Users\\{username}\\Documents\\GitHub\\Course-Catalog-Information-Aggregator\\Output"
     os.makedirs(output_dir, exist_ok=True)
     filename = os.path.join(output_dir, "augusta_university_courses.txt")
 
@@ -45,7 +48,7 @@ def extract_course_info(page):
 
             try:  # Wrap the following code in a try...except block
                 # Navigate to the course page
-                course_page = page.context.new_page()
+                course_page = browser.new_page()
                 print(f"Navigating to: https://catalog.augusta.edu/{course_url}")  # Debugging
                 course_page.goto(f"https://catalog.augusta.edu/{course_url}", timeout=30000)  # Added timeout
 
@@ -73,7 +76,6 @@ def extract_course_info(page):
                 print(f"Processed {i} courses...")
 
     print(f"Course information saved as {filename}")
-
 
 if __name__ == "__main__":
     url = "https://catalog.augusta.edu/content.php?catoid=45&navoid=5479"
