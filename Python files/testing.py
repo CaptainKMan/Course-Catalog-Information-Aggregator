@@ -51,17 +51,19 @@ def extract_course_info(playwright, browser, url):
                 # Navigate to the course page
                 course_page = browser.new_page()
                 print(f"Navigating to: https://catalog.augusta.edu/{course_url}")  # Debugging
-                course_page.goto(f"https://catalog.augusta.edu/{course_url}", timeout=30000)  # Added timeout
+                course_page.goto(f"https://catalog.augusta.edu/{course_url}", timeout=30000) # Added timeout
 
-                # Extract course details
-                course_details = course_page.query_selector('.coursedetail')
-                if course_details:
-                    course_info = course_details.inner_text()
-                    f.write(f"Course: {course_name}\n")
-                    f.write(f"Details: {course_info}\n\n")
-                else:
-                    f.write(f"Course: {course_name}\n")
-                    f.write("Details: Not available\n\n")
+                # pass the HTML content to the function
+                html_content = course_page.content()
+                course_details = extract_course_details(html_content) # Call the function
+
+                f.write(f"Course: {course_name}\n")
+                f.write(f"Description: {course_details.get('description', 'Not found')}\n")
+                f.write(f"Prerequisites: {course_details.get('prerequisites', 'Not found')}\n")
+                f.write(f"Lecture Hours: {course_details.get('lecture_hours', 'Not found')}\n")
+                f.write(f"Repeat Status: {course_details.get('repeat_status', 'Not found')}\n")
+                f.write(f"Grade Mode: {course_details.get('grade_mode', 'Not found')}\n")
+                f.write(f"Schedule Type: {course_details.get('schedule_type', 'Not found')}\n\n")
 
                 course_page.close()
 
@@ -69,9 +71,9 @@ def extract_course_info(playwright, browser, url):
                 print(f"Error processing course {i}: {e}")
                 if 'course_page' in locals():
                     try:
-                        course_page.close()  # Ensure page is closed even on error
+                        course_page.close()
                     except:
-                        pass  # Ignore close errors in error handling
+                        pass
 
             if i % 10 == 0:
                 print(f"Processed {i} courses...")
