@@ -47,7 +47,7 @@ def extract_course_info(playwright, browser, url):
             course_name = link.inner_text().strip()
             course_url = link.get_attribute('href')
 
-            try:  # Wrap the following code in a try...except block
+            try:
                 # Navigate to the course page
                 course_page = browser.new_page()
                 print(f"Navigating to: https://catalog.augusta.edu/{course_url}")  # Debugging
