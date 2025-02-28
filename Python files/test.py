@@ -31,7 +31,7 @@ def extract_course_info(playwright, browser, url):
     page = browser.new_page()
     print(f"Navigating to {url}")
     page.goto(url)
-    course_links = page.query_selector_all('table.table_default a')
+    course_links = page.query_selector_all('table.table_default > tbody > tr > td.width > a[href^="preview_course_nopop.php"]')
     print(f"Found {len(course_links)} course links")
 
     username = os.environ['USERNAME']
