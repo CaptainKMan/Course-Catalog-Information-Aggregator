@@ -1,0 +1,302 @@
+Augusta University Course Catalog
+
+Course: INQR 1000 - Fundamentals of Academic Inquiry (1 Credit Hour)
+Details: Not available
+
+Course: INQR 1000H - Honors: Fundamentals of Academic Inquiry (1 Credit Hour)
+Details: Not available
+
+Course: ASII 1101 - Learning for Success (1 Credit Hour)
+Details: Not available
+
+Course: ASII 1201 - Teaching and Learning for Peer Educators (1 Credit Hour)
+Details: Not available
+
+Course: ACCT 2101 - Principles of Accounting I (3 Credit Hours)
+Details: Not available
+
+Course: ACCT 2102 - Principles of Accounting II (3 Credit Hours)
+Details: Not available
+
+Course: ACCT 3311 - Intermediate Accounting I (3 Credit Hours)
+Details: Not available
+
+Course: ACCT 3312 - Intermediate Accounting II (3 Credit Hours)
+Details: Not available
+
+Course: ACCT 3313 - Intermediate Accounting III (3 Credit Hours)
+Details: Not available
+
+Course: ACCT 3321 - Cost Accounting (3 Credit Hours)
+Details: Not available
+
+Course: ACCT 3331 - Federal Income Taxation (3 Credit Hours)
+Details: Not available
+
+Course: ACCT 4322 - Cost Management (3 Credit Hours)
+Details: Not available
+
+Course: ACCT 4332 - Advanced Federal Income Taxation (3 Credit Hours)
+Details: Not available
+
+Course: ACCT 4350 - Accounting Information Systems (3 Credit Hours)
+Details: Not available
+
+Course: ACCT 4360 - Auditing (3 Credit Hours)
+Details: Not available
+
+Course: ACCT 4370 - Advanced Accounting (3 Credit Hours)
+Details: Not available
+
+Course: ACCT 4380 - Governmental and Institutional Accounting (3 Credit Hours)
+Details: Not available
+
+Course: ACCT 4390 - Financial Statement Analysis (3 Credit Hours)
+Details: Not available
+
+Course: ACCT 4950 - Selected Topics in Accounting (3 Credit Hours)
+Details: Not available
+
+Course: ACCT 4960 - Accounting Internship (3 Credit Hours)
+Details: Not available
+
+Course: ACCT 6300 - Accounting for Managers (3 Credit Hours)
+Details: Not available
+
+Course: ACCT 6332 - Advanced Federal Income Taxation (3 Credit Hours)
+Details: Not available
+
+Course: ACCT 6350 - Accounting for Healthcare Managers (3 Credit Hours)
+Details: Not available
+
+Course: ACCT 6370 - Advanced Accounting (3 Credit Hours)
+Details: Not available
+
+Course: ACCT 6380 - Governmental and Institutional Accounting (3 Credit Hours)
+Details: Not available
+
+Course: ACCT 6950 - Selected Topics in Accounting (3 Credit Hours)
+Details: Not available
+
+Course: ADBL 5211 - Basic Cardiac Life Support Training I (1 Credit Hour)
+Details: Not available
+
+Course: ADBL 5612 - Basic Cardiac Life Support Training II (1 Credit Hour)
+Details: Not available
+
+Course: ADCL 5291 - Community Outreach I (1 Credit Hour)
+Details: Not available
+
+Course: ADCL 5492 - Community Outreach II (1 Credit Hour)
+Details: Not available
+
+Course: ADCL 5693 - Community Outreach III (1 Credit Hour)
+Details: Not available
+
+Course: ADCL 5794 - Community Outreach Clerkship I (6 Credit Hours)
+Details: Not available
+
+Course: ADCL 5895 - Community Outreach Clerkship II (6 Credit Hours)
+Details: Not available
+
+Course: ADFD 5591 - Clinical Ethics & Professionalism I (1 Credit Hour)
+Details: Not available
+
+Course: ADFD 5692 - Clinical Ethics & Professionalism II (2 Credit Hours)
+Details: Not available
+
+Course: ADFD 5793 - Clinical Ethics & Professionalism III (3 Credit Hours)
+Details: Not available
+
+Course: ADFD 5894 - Clinical Ethics & Professionalism IV (3 Credit Hours)
+Details: Not available
+
+Course: RMAI 5000 - Medicine Subspecialty Allergy Immunology (27 Credit Hours)
+Details: Not available
+
+Course: CAHS 3110 - Human Physiology (3 Credit Hours)
+Details: Not available
+
+Course: CAHS 3610 - Ethics for Health Professionals (1 Credit Hour)
+Details: Not available
+
+Course: CAHS 3660 - U.S. Healthcare Delivery System (3 Credit Hours)
+Details: Not available
+
+Course: CAHS 4300 - Professional Issues and Ethics (1 Credit Hour)
+Details: Not available
+
+Course: CAHS 4451 - Child Life Clinic I (10 to 15 Credit Hours)
+Details: Not available
+
+Course: CAHS 4452 - Child Life Internship (10 to 15 Credit Hours)
+Details: Not available
+
+Course: CAHS 4453 - LIFE - Learning in Family Environments (1 to 3 Credit Hours)
+Details: Not available
+
+Course: CAHS 4470 - Public Health and Healthcare Small Business Governance and Financial Management (3 Credit Hours)
+Details: Not available
+
+Course: CAHS 6501 - Evidence-Based Practice (2 Credit Hours)
+Details: Not available
+
+Course: CAHS 6503 - Research Process (3 Credit Hours)
+Details: Not available
+
+Course: CAHS 6524 - Project Development (2 Credit Hours)
+Details: Not available
+
+Course: CAHS 7005 - The Adult as a Learner (3 Credit Hours)
+Details: Not available
+
+Course: CAHS 7100 - Pathophysiology for Allied Health Professionals (3 Credit Hours)
+Details: Not available
+
+Course: CAHS 7110 - Principles of Human Physiology (3 Credit Hours)
+Details: Not available
+
+Course: CAHS 7115 - Topics in Healthcare Delivery (2 Credit Hours)
+Details: Not available
+
+Course: CAHS 7200 - Capstone Project (2 Credit Hours)
+Details: Not available
+
+Course: CAHS 7300 - Professional Issues and Ethics (1 Credit Hour)
+Details: Not available
+
+Course: CAHS 7400 - Human Gross Anatomy (6 Credit Hours)
+Details: Not available
+
+Course: CAHS 7450 - Human Gross Anatomy for Occupational Therapists (6 Credit Hours)
+Details: Not available
+
+Course: CAHS 7500 - Clinical Anatomy (4 Credit Hours)
+Details: Not available
+
+Course: CAHS 7523 - Research Project (3 to 6 Credit Hours)
+Details: Not available
+
+Course: CAHS 7550 - Clinical Anatomy and Physiology II (4 Credit Hours)
+Details: Not available
+
+Course: CAHS 7705 - Neuroscience Applications (3 Credit Hours)
+Details: Not available
+
+Course: CAHS 7990 - Independent Study (3 Credit Hours)
+Details: Not available
+
+Course: CAHS 9200 - Special Project (1 to 4 Credit Hours)
+Details: Not available
+
+Course: SAHS 6532 - Research Investigation (2 Credit Hours)
+Details: Not available
+
+Course: SAHS 7533 - Research Thesis (3 Credit Hours)
+Details: Not available
+
+Course: SAHS 7541 - Data/Outcome Analysis (1 Credit Hour)
+Details: Not available
+
+Course: ANAT 5002 - Research Elective in Anatomy (4 to 8 Credit Hours)
+Details: Not available
+
+Course: ANAT 5004 - Teaching Skills Elective (7 Credit Hours)
+Details: Not available
+
+Course: ANAT 5005 - Clinical Anatomy and Teaching Skills (4 to 8 Credit Hours)
+Details: Not available
+
+Course: ANAT 5085 - Essentials of Education (1 Credit Hour)
+Details: Not available
+
+Course: ANAT 5086 - Forensic Medicine (1 Credit Hour)
+Details: Not available
+
+Course: ANAT 7010 - Human Gross Anatomy for Medical Illustration I (4 Credit Hours)
+Details: Not available
+
+Course: ANAT 7011 - Human Gross Anatomy for Medical Illustration II (3 Credit Hours)
+Details: Not available
+
+Course: ANAT 7030 - Neuroscience I (3 Credit Hours)
+Details: Not available
+
+Course: ANAT 7040 - Graduate Neuroscience I (4 Credit Hours)
+Details: Not available
+
+Course: ANAT 7300 - Human Gross Anatomy (6 Credit Hours)
+Details: Not available
+
+Course: ANAT 8010 - Special Topics in Anatomy (1 to 4 Credit Hours)
+Details: Not available
+
+Course: ANAT 8020 - Introduction to Research (2 Credit Hours)
+Details: Not available
+
+Course: ANAT 8030 - Fundamentals of Vision Science (3 Credit Hours)
+Details: Not available
+
+Course: ANAT 8040 - Current Topics in Vision Science (3 Credit Hours)
+Details: Not available
+
+Course: ANAT 8050 - Graduate Histology (5 Credit Hours)
+Details: Not available
+
+Course: ANAT 8051 - Histology for Graduate Studies I (3 Credit Hours)
+Details: Not available
+
+Course: ANAT 8052 - Histology of Graduate Studies II (3 Credit Hours)
+Details: Not available
+
+Course: ANAT 8060 - Visual Neuroscience (2 Credit Hours)
+Details: Not available
+
+Course: ANAT 8070 - Progress in Vision Research (1 Credit Hour)
+Details: Not available
+
+Course: ANAT 8080 - Cellular Mechanisms in Development and Disease (2 Credit Hours)
+Details: Not available
+
+Course: ANAT 8090 - Current Topics in Cellular Biology (1 Credit Hour)
+Details: Not available
+
+Course: ANAT 8120 - Investigative Techniques in Cell Biology (3 Credit Hours)
+Details: Not available
+
+Course: ANAT 8300 - Thesis Research (1 to 12 Credit Hours)
+Details: Not available
+
+Course: ANAT 9010 - Seminar in Cellular Biology and Anatomy (1 Credit Hour)
+Details: Not available
+
+Course: ANAT 9020 - Seminar in Cellular Biology and Anatomy (1 Credit Hour)
+Details: Not available
+
+Course: ANAT 9210 - Investigation of a Problem (1 to 12 Credit Hours)
+Details: Not available
+
+Course: ANAT 9300 - Research (1 to 12 Credit Hours)
+Details: Not available
+
+Course: ANES 5002 - Anesthesiology Research Elective (4 to 8 Credit Hours)
+Details: Not available
+
+Course: ANES 5003 - Anesthesiology Off Campus Externship (4 to 8 Credit Hours)
+Details: Not available
+
+Course: ANES 5008 - Pain Management Elective (4 to 8 Credit Hours)
+Details: Not available
+
+Course: ANES 5011 - Anesthesiology Externship (4 to 8 Credit Hours)
+Details: Not available
+
+Course: ANES 5014 - Respiratory Care Elective (4 to 8 Credit Hours)
+Details: Not available
+
+Course: ANES 5015 - Anesthesia Critical Care (12 Credit Hours)
+Details: Not available
+
+Course: ANES 5016 - Anesthesiology Preceptorship (7 Credit Hours)
+Details: Not available
+
