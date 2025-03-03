@@ -1,3 +1,5 @@
+#venv
+/Python_files/venv/
 
 # Playwright
 node_modules/
