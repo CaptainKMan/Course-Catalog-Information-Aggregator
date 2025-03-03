@@ -37,7 +37,6 @@ def extract_course_info(playwright, browser, url):
     course_links = page.query_selector_all('table.table_default > tbody > tr > td.width > a[href^="preview_course_nopop.php"]')
     print(f"Found {len(course_links)} course links")
 
-    username = os.environ['USERNAME']
     output_dir = os.path.join(os.path.dirname(os.path.dirname(__file__)), "Output")
     os.makedirs(output_dir, exist_ok=True)
     filename = os.path.join(output_dir, "augusta_university_courses.txt")
