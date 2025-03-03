@@ -24,6 +24,14 @@ Repeat Status: NR - Not Repeatable
 Grade Mode: Normal, Audit
 Schedule Type: Lecture, Seminar - Small Group
 
+Course: ASII 1201 - Teaching and Learning for Peer Educators (1 Credit Hour)
+Description: 
+Prerequisites: Prerequisites not found
+Lecture Hours: 1
+Repeat Status: Repeatable
+Grade Mode: Normal, Audit
+Schedule Type: Lecture, Seminar - Small Group
+
 Course: ACCT 2101 - Principles of Accounting I (3 Credit Hours)
 Description: 
 Prerequisites: MATH 1101>=C or
