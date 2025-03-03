@@ -408,6 +408,22 @@ Repeat Status: NR - Not Repeatable
 Grade Mode: Normal, Audit
 Schedule Type: Lecture
 
+Course: CAHS 7110 - Principles of Human Physiology (3 Credit Hours)
+Description: 
+Prerequisites: Prerequisites not found
+Lecture Hours: 3
+Repeat Status: NR - Not Repeatable
+Grade Mode: Normal, Audit
+Schedule Type: Asynchronous Instruction
+
+Course: CAHS 7115 - Topics in Healthcare Delivery (2 Credit Hours)
+Description: 
+Prerequisites: Prerequisites not found
+Lecture Hours: 2
+Repeat Status: NR - Not Repeatable
+Grade Mode: Normal, Audit
+Schedule Type: Lecture, Asynchronous Instruction
+
 Course: CAHS 7200 - Capstone Project (2 Credit Hours)
 Description: 
 Prerequisites: Prerequisites not found
@@ -665,12 +681,12 @@ Grade Mode: Satisfactory/Unsatisfactory, Audit
 Schedule Type: Seminar - Small Group
 
 Course: ANAT 8080 - Cellular Mechanisms in Development and Disease (2 Credit Hours)
-Description: 
+Description: Description not found
 Prerequisites: Prerequisites not found
 Lecture Hours: Lecture Hours not found
 Repeat Status: Repeat Status not found
-Grade Mode: Normal, Audit
-Schedule Type: Seminar - Small Group
+Grade Mode: Grade Mode not found
+Schedule Type: Schedule Type not found
 
 Course: ANAT 8090 - Current Topics in Cellular Biology (1 Credit Hour)
 Description: 
