@@ -7,3 +7,25 @@ venv/bin/python -i testing.py
 ```
 
 # Usage
+
+# Troubleshooting
+
+
+If at first start you receive the following message:
+
+```text
+ venv/bin/python -i testing.py
+Starting the browser...
+An error occurred: BrowserType.launch: Executable doesn't exist at […]
+╔════════════════════════════════════════════════════════════╗
+║ Looks like Playwright was just installed or updated.       ║
+║ Please run the following command to download new browsers: ║
+║                                                            ║
+║     playwright install                                     ║
+║                                                            ║
+║ <3 Playwright Team                                         ║
+╚════════════════════════════════════════════════════════════╝
+Press Enter to exit...
+```
+
+Then (do what? `npx playwright install`?)
