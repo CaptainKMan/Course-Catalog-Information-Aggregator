@@ -2,7 +2,6 @@ import sys
 import re
 import os
 from playwright.sync_api import sync_playwright
-# from elevate import elevate
 from bs4 import BeautifulSoup
 
 def run(playwright, url):
@@ -152,7 +151,7 @@ def extract_course_details(course_page):
     return details
 
 if __name__ == "__main__":
-    # elevate()
+    
     url = "https://catalog.augusta.edu/content.php?catoid=45&navoid=5479"
     
     try:
