@@ -28,4 +28,7 @@ An error occurred: BrowserType.launch: Executable doesn't exist at […]
 Press Enter to exit...
 ```
 
-Then (do what? `npx playwright install`?)
+Then run this command: 
+`npx playwright install`
+
+
