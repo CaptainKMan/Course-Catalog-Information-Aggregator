@@ -1,3 +1,2 @@
 playwright
-elevate
 bs4
