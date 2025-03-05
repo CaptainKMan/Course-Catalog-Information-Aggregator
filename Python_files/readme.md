@@ -31,4 +31,6 @@ Press Enter to exit...
 Then run this command: 
 `npx playwright install`
 
+after havind made sure that you had [npm command-line interface](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) installed.
+
 
