@@ -53,7 +53,7 @@ To keep your PC secure when you are done running the script, in the same Adminis
 `Set-ExecutionPolicy Restricted`
 
 
-I'm currently workin on fixing this issue
+If you run into this error:
 
 ```text
 Course-Catalog-Information-Aggregator\Python_files> npx playwright install
@@ -76,5 +76,7 @@ Course-Catalog-Information-Aggregator\Python_files> npx playwright install
 ║                                                                               ║
 ╚═══════════════════════════════════════════════════════════════════════════════╝
 ```
-
+Run the 
+`npm install` and
+`npx playwright install` commands like it states. 
 
