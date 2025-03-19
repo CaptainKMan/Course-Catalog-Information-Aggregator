@@ -39,8 +39,10 @@ def extract_course_info(playwright, browser, url):
 
     output_dir = os.path.join(os.path.dirname(__file__), "Output")
     os.makedirs(output_dir, exist_ok=True)
-    date_time = datetime.datetime.now()
-    filename = os.path.join(output_dir, f"augusta_university_courses_{date_time}.txt")
+    date = datetime.datetime.now()
+    date_form = date.strftime("%d-%b-%Y_%H-%M")
+    file_name = f"augusta_university_courses_{date_form}.txt"
+    filename = os.path.join(output_dir, file_name)
 
     print(f"Writing to file: {filename}")
     with open(filename, "w", encoding="utf-8") as f:
