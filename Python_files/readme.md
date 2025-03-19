@@ -11,7 +11,7 @@ venv/bin/python -i testing.py
 # Troubleshooting
 
 
-If at first start you receive the following message:
+## If at first start you receive the following message:
 
 ```text
  venv/bin/python -i testing.py
@@ -34,7 +34,7 @@ Then run this command:
 After having made sure that you had [npm command-line interface](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) installed.
 
 
-If you recieve this error on Windows:
+## If you recieve this error on Windows:
 
 ```text
 Course-Catalog-Information-Aggregator\Python_files> npx playwright install
@@ -53,7 +53,7 @@ To keep your PC secure when you are done running the script, in the same Adminis
 `Set-ExecutionPolicy Restricted`
 
 
-If you run into this error:
+## If you run into this error:
 
 ```text
 Course-Catalog-Information-Aggregator\Python_files> npx playwright install
