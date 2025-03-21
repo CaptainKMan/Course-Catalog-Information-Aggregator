@@ -40,7 +40,7 @@ def extract_course_info(playwright, browser, url):
     output_dir = os.path.join(os.path.dirname(__file__), "Output")
     os.makedirs(output_dir, exist_ok=True)
     date = datetime.datetime.now()
-    date_form = date.strftime("%d-%b-%Y_%H-%M")
+    date_form = date.strftime("%Y_%m_%d_%H_%M_%S")
     file_name = f"augusta_university_courses_{date_form}.txt"
     filename = os.path.join(output_dir, file_name)
 
